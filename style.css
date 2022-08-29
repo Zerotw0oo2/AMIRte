@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+
+}
+header{
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 0 10%;
+    background-color: green;
+    height: 92px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+header>a{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.pustota{
+    width:10%;
+}
+.logo{
+    display: flex;
+    color: azure;
+    justify-content: flex-start;
+}
+a{
+    text-decoration:none;
+    margin:0 10px;
+    color: rgb(255, 255, 255);
+}
+article>a{
+    color: green;
+    font-size: 20px;
+}
+
+
+.teaa{
+    background-image: url(https://phpstack-498062-1623983.cloudwaysapps.com/wp-content/uploads/2015/09/p-amir3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.banner{
+    padding:20% 5%;
+    color:rgb(27, 95, 13);
+    font-size:30px;    
+    
+    
+} 
+
+.sort{
+    background-color: rgb(3, 80, 19);
+    margin: 0;
+    display: flexbox;
+    justify-content: flex-end;
+    padding: 20px;
+    color: white;
+    
+}
+.sort>*{
+    
+    width: 450px;
+    font-size: 30px;
+} 
+.most{
+    background-color: white;
+    padding: 20px;
+    
+}
+.most>h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(10, 179, 24);
+} 
+
+.frog{
+    display: inline-block; 
+    
+}
+.frog>*{
+    width: 300px;
+    display: iblock;
+    text-align: center;
+
+}
+.foot{
+    padding: 10px;
+    background-color: rgb(8, 58, 14);
+    color: white;
+}
